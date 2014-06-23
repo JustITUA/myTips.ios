@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3AA0D1C9195841380042226F /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0D1C8195841380042226F /* logo@2x.png */; };
-		3AA0D1CC195848D40042226F /* screenshot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0D1CA195848D40042226F /* screenshot@2x.png */; };
-		3AA0D1CD195848D40042226F /* wifi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0D1CB195848D40042226F /* wifi@2x.png */; };
+		3AA0D1D3195886110042226F /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0D1D0195886110042226F /* logo@2x.png */; };
+		3AA0D1D4195886110042226F /* screenshot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0D1D1195886110042226F /* screenshot@2x.png */; };
+		3AA0D1D5195886110042226F /* wifi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3AA0D1D2195886110042226F /* wifi@2x.png */; };
 		4DA7203899B74495BF00E495 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7640D720934E0E99CEAF21 /* libPods.a */; };
 		9B4888491948445700541138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B4888481948445700541138 /* Foundation.framework */; };
 		9B48884B1948445700541138 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B48884A1948445700541138 /* CoreGraphics.framework */; };
@@ -44,9 +44,9 @@
 
 /* Begin PBXFileReference section */
 		1B7640D720934E0E99CEAF21 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		3AA0D1C8195841380042226F /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "../../../Pictures/logo@2x.png"; sourceTree = "<group>"; };
-		3AA0D1CA195848D40042226F /* screenshot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "screenshot@2x.png"; path = "../../../Downloads/screenshot@2x.png"; sourceTree = "<group>"; };
-		3AA0D1CB195848D40042226F /* wifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wifi@2x.png"; path = "../../../Downloads/wifi@2x.png"; sourceTree = "<group>"; };
+		3AA0D1D0195886110042226F /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo@2x.png"; path = "heydaraliyevcenter/resources/logo@2x.png"; sourceTree = "<group>"; };
+		3AA0D1D1195886110042226F /* screenshot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "screenshot@2x.png"; path = "heydaraliyevcenter/resources/screenshot@2x.png"; sourceTree = "<group>"; };
+		3AA0D1D2195886110042226F /* wifi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wifi@2x.png"; path = "heydaraliyevcenter/resources/wifi@2x.png"; sourceTree = "<group>"; };
 		66EE72692F774A61B280E909 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		9B4888451948445700541138 /* myTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4888481948445700541138 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -107,9 +107,9 @@
 		3AA0D1C71958411B0042226F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3AA0D1CA195848D40042226F /* screenshot@2x.png */,
-				3AA0D1CB195848D40042226F /* wifi@2x.png */,
-				3AA0D1C8195841380042226F /* logo@2x.png */,
+				3AA0D1D0195886110042226F /* logo@2x.png */,
+				3AA0D1D1195886110042226F /* screenshot@2x.png */,
+				3AA0D1D2195886110042226F /* wifi@2x.png */,
 			);
 			name = Resources;
 			path = ..;
@@ -306,12 +306,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AA0D1CD195848D40042226F /* wifi@2x.png in Resources */,
-				3AA0D1C9195841380042226F /* logo@2x.png in Resources */,
 				9B4888611948445700541138 /* Images.xcassets in Resources */,
+				3AA0D1D5195886110042226F /* wifi@2x.png in Resources */,
+				3AA0D1D3195886110042226F /* logo@2x.png in Resources */,
 				9B4888531948445700541138 /* InfoPlist.strings in Resources */,
-				3AA0D1CC195848D40042226F /* screenshot@2x.png in Resources */,
 				9B48885C1948445700541138 /* Main.storyboard in Resources */,
+				3AA0D1D4195886110042226F /* screenshot@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
