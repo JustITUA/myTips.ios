@@ -75,7 +75,7 @@
     [self.view.layer renderInContext:UIGraphicsGetCurrentContext()];
     UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
     
-    image = [self imageWithImage:image scaledToSize:CGSizeMake(480, 840)];
+    image = [self imageWithImage:image scaledToSize:CGSizeMake(480, 846)];
     
     NSData * data = UIImagePNGRepresentation(image);
     
